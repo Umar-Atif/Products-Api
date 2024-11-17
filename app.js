@@ -7,12 +7,12 @@ products1
 .then((res) => {
     // console.log(res.products);
     res.products.map((item) => {
-        output1.innerHTML += `<div class="card">
+        output1.innerHTML += `<div class="card1">
             <img src="${item.thumbnail}" alt="Thumbnail">
             <h3>${item.title}</h3>
             <p>${item.description.slice(0 , 25)}...</p>
             <p>Price: <span style="color: red;"><b>$${item.price}</b></span></p>
-            <button onclick="seeMore(${item.id})">See More...</button>
+            <button onclick="seeMore(${item.id})">See More</button>
         </div>`
     })
 })

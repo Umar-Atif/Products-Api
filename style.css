@@ -1,0 +1,118 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.output1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 45px;
+}
+
+.card1 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin: 15px;
+    text-align: center;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card1 h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card1 p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 10px;
+}
+
+.card1 .price {
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.card1 button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #8bc34a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card1 button:hover {
+    background-color: #7cb342;
+    transform: translateY(-2px);
+}
+
+.card1 button:active {
+    transform: translateY(1px);
+}
+
+
+
+
+/* Product.html */
+.output2 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin: 15px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a button{
+    padding: 10px 15px;
+    margin: 8px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #8bc34a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+a button:hover{
+background-color: #7cb342;
+transform: translateY(-2px);
+}
+a button:active{
+    transform: translateY(1px);
+}
+.a{
+    text-align: center;
+    margin-top: 20px;
+}
